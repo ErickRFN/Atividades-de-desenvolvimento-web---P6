@@ -1,0 +1,30 @@
+*{
+    margin: 0;
+    margin-top: 10px;
+    padding: 0;
+    box-sizing: border-box;
+    text-align: center;
+}
+
+nav a{
+    display: inline-block;
+    width: 19%;
+    background-color: rgb(29, 53, 113);
+    color: azure;
+    border-radius: 20px;
+    padding: 15px;
+}
+
+section {
+    display: flex;
+}
+
+section div{
+    width: 45%;
+    margin: 4%;
+    padding: 15%;
+    background-color: cadetblue;
+    color: rgb(242, 255, 251);
+    border: 2px solid rgb(103, 131, 187);
+    box-shadow: 3px 3px 10px rgba(90, 90, 90, 0.63);
+}

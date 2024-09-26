@@ -1,0 +1,22 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header, footer{
+    color: white;
+    text-align: center;
+    padding: 15px;
+    background-color: #8fd0f8;
+}
+
+main p{
+    display: inline-block;
+    background-color: rgb(4, 107, 125);
+    color: azure;
+    border: 2px solid #3b42b0;
+    border-radius: 20px;
+    margin: 10px;
+    padding: 10px;
+}
