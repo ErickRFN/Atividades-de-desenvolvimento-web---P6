@@ -1,0 +1,106 @@
+* {
+    margin: 0;
+    margin-top: 10px;
+    padding: 0;
+    box-sizing: border-box;
+    text-align: center;
+    background-color: #02162c;
+    font-family: 'Verdana', sans-serif;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    gap: 20px;
+}
+
+h1 {
+    color: #f1f1f1;
+    text-shadow: 2px 2px 4px #333, 0 0 10px rgba(0, 0, 0, 0.8);
+    font-size: 3em;
+    letter-spacing: 2px;
+    font-weight: bold;
+    text-transform: uppercase;
+    padding: 10px;
+    border-bottom: 2px solid #3636e8;
+    margin-bottom: 20px;
+}
+
+input {
+    border-radius: 20px;
+    height: 40px;
+    width: 400px;
+    padding: 0 15px;
+    border: 2px solid #ccc;
+    background-color: #f9f9f9;
+    font-size: 16px;
+    outline: none;
+    transition: border-color 0.3s, box-shadow 0.3s;
+}
+
+input:focus {
+    border-color: #007bff;
+    box-shadow: 0 0 10px rgba(0, 123, 255, 0.3);
+}
+
+button {
+    border-radius: 10px;
+    height: 50px;
+    width: 100px;
+    border: none;
+    background-color: #007bff;
+    color: white;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s, box-shadow 0.3s;
+}
+
+button:hover {
+    background-color: #0056b3;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
+}
+
+button:active {
+    background-color: #003d80;
+    box-shadow: inset 0 4px 6px rgba(0, 0, 0, 0.2);
+}
+
+#result {
+    border-radius: 10px;
+    background-color: #f1f1f1;
+    padding: 20px;
+    margin-top: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    font-size: 16px;
+    color: #333;
+    line-height: 1.5;
+    width: 100%;
+    max-width: 500px;
+    transition: opacity 0.3s ease;
+    opacity: 0;
+}
+
+#result h1 {
+    background-color: #f1f1f1;
+    border-bottom: none;
+    font-size: 2em;
+    color: #000000;
+    text-shadow: 2px 2px 4px #90909065, 0 0
+}
+
+#result p {
+    background-color: #f1f1f1;
+    color: #000000;
+}
+
+p strong {
+    background-color: #f1f1f1;
+}
+
+#result.show {
+    opacity: 1;
+}
