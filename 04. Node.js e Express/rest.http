@@ -1,0 +1,21 @@
+GET http://localhost:3000/animes
+###
+GET http://localhost:3000/animes/1
+###
+POST http://localhost:3000/animes
+content-type: application/json
+
+{
+    "name": "My Hero Academia",
+    "genre": "Action",
+    "studio": "Bones"
+}
+###
+DELETE http://localhost:3000/animes/3
+###
+PUT http://localhost:3000/animes/4
+content-type: application/json
+
+{
+    "genre": "Fiction"
+}
